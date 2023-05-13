@@ -60,8 +60,16 @@ function Board() {
 
   return (
     <div>
+      <div>
+        {
+        <h1>
+          <h2 className="game-name">Tic Tac Toe</h2>
+        </h1>
+        }
+      </div>
+      
       {!winner && <p>Hey {currentPlayer}, it's your turn</p>}
-      {winner && winner !== "BOTH" && <p className="winner-message">Congratulations {winner}</p>}
+      {winner && winner !== "BOTH" && <p className="winner-message">Congratulations {winner}!</p>}
       {winner && winner === "BOTH" && (
         <p className='winner-message'>It's a Draw!</p>
       )}
@@ -80,9 +88,11 @@ function Board() {
             );
           })}
       </div>
-      <button className="reset" onClick={reset}>
-        RESET
-      </button>
+      <div className="reset-container">
+        <button className="reset" onClick={reset}>
+          RESET
+        </button>
+      </div>
     </div>
   );
 }
