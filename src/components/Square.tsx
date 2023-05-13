@@ -1,4 +1,3 @@
-export default Square;
 type Player = "X" | "O" | "BOTH" | null;
 
 function Square({
