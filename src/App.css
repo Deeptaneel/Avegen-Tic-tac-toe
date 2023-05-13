@@ -67,4 +67,14 @@ p {
 
 p {
   font-size: 2rem;
+  font-family:'Times New Roman', Times, serif;
+  color: #000000;
+  font-weight: 900;
+}
+
+.winner-message {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
 }

@@ -6,7 +6,9 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: darkslategray;
+  background-image: url("../assets/images/26106.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .main {
@@ -120,4 +122,3 @@
     flex-direction: column;
   }
 }
-
