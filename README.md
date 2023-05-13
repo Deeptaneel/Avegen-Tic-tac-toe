@@ -23,7 +23,6 @@ git clone https://github.com/Deeptaneel/Avegen-Tic-tac-toe.git
 2. Install the dependencies:
 
 ```
-cd tic-tac-toe
 npm install
 ```
 
