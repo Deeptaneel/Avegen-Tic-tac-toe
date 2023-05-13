@@ -27,7 +27,7 @@ npm install
 
 ### Running the app
 
-1. Start the Metro Bundler:
+1. Start the Application:
 
 ```
 npm start
