@@ -1,6 +1,8 @@
 # Tic Tac Toe Game
 
 This is a simple Tic Tac Toe game built using React.
+![image](https://github.com/Deeptaneel/Avegen-Tic-tac-toe/assets/68814890/b23d4ffd-7b8b-4786-8b54-8fc8f80dd7ef)
+
 
 ## Getting Started
 
